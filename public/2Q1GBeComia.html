@@ -68,6 +68,11 @@
             caption {
                 color: azure;
             }
+
+            .video-center {
+                display: flex;
+                justify-content: center;
+            }
         </style>
     </head>
     <body>
@@ -211,10 +216,12 @@
                 <td>Waiting time (~20-30mins worst), unhealthy, expensive</td>
             </tr>
         </table>
-
-        <video width="640" height="480" poster="thumbnail" controls>
-            <source src=""> <!-- insert vid link here yipppe -->
-        </video>
+        
+        <div class="video-center">
+            <video width="640" height="480" poster="thumbnail" controls>
+                <source src="insert video link here">
+            </video>
+        </div>
 
         <nav>
             <p class="footer" style="text-align: center">
